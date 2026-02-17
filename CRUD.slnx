@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CRUD.Model/CRUD.Model.csproj" />
+  <Project Path="CRUD.Data/CRUD.Data.csproj" />
+  <Project Path="CRUD.Api/CRUD.Api.csproj" />
+  <Project Path="CRUD.Dtos/CRUD.Dtos.csproj" />
+</Solution>
