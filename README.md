@@ -7,3 +7,18 @@
 برای جداسازی لایه‌ها، از **DTOها** استفاده میشد  همچنین **فیلترها و query stringها** برای جستجو و مرتب‌سازی (در صورت نیاز) قابل اضافه کردن هستند.  
 
 این پروژه می‌تواند به عنوان یک الگوی ساده برای شروع پروژه‌های بزرگتر با معماری تمیز و قابلیت توسعه استفاده شود.
+
+برای استفاده میتوانید فایل **connectionstring** موجود در پروژه CRUD.Api در فایل appsettings.json زا تفییر دهید و 
+
+>[appsettings.json](CRUD.Api/appsettings.json)
+>
+>    "ConnectionStrings": {
+>    "DefaultConnection": "Server=.;Database=MahsolDb;Trusted_Connection=True;TrustServerCertificate=True"
+>  },
+
+و با دستور 
+
+> Add-Migration InitialCreate  
+> Update-Database  
+
+و با استفاده از ابزار هایی مثل  postman از ان استفاده کنید
