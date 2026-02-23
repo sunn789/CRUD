@@ -1,0 +1,6 @@
+<Solution>
+    <Project Path="GCRUD.Api/GCRUD.Api.csproj" />
+    <Project Path="GCRUD.Core/GCRUD.Core.csproj" />
+    <Project Path="GCRUD.Application/GCRUD.Application.csproj" />
+    <Project Path="GCRUD.Infrastructure/GCRUD.Infrastructure.csproj" />
+</Solution>
